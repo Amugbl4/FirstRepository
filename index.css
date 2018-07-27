@@ -1,5 +1,5 @@
 html, body {
-    background-color: aquamarine;
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
     color: coral;
@@ -16,6 +16,9 @@ margin-bottom: 244px;
 }
 
 .page-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     position: relative;
     min-height: 100px;
     background-color: azure;
@@ -23,12 +26,11 @@ margin-bottom: 244px;
 }
 
 .page-header .logo {
-    position: absolute;
-    top: 20px;
-    left: 30px;
+
 }
 
 .page-header ul {
+    
     margin-left: 250px;
     list-style: none;
     margin: 0;
@@ -65,6 +67,8 @@ main {
 }
 
 .page-footer {
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -81,7 +85,7 @@ main {
     clear: both;
 }
 
-.page-footer .logo {
-    
-    height: auto;
+.page-footer img {
+    display: block;
+    height: 244px;
 }
